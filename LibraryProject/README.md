@@ -15,3 +15,4 @@ This project is a basic Django application designed to manage a library. It incl
 
 ## License
 MIT
+Trying to add a new line
