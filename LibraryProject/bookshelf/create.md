@@ -1,10 +1,8 @@
 # Create Operation for Book Model
 
-## Objective
-In this section, we will demonstrate how to create a new `Book` instance using the Django Shell.
-
-## Steps
-
-1. Open Django Shell:
-   ```bash
-   python manage.py shell
+## command
+from bookshelf.models import Book
+book = Book.objects.create(title="1984", author="George Orwell", publication_year=1949)
+book
+## Output
+Book: 1984 by George Orwell (1949)
